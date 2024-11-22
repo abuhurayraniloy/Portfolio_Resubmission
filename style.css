@@ -25,3 +25,23 @@ body {
     align-items: center;
     z-index: 10000;
 }
+
+.navbar-list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-list ul li {
+    margin-left: 50px;
+}
+
+.navbar-list ul li a {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    display: block;
+}
