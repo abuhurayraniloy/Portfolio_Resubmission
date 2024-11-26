@@ -3,9 +3,8 @@
     padding: 0;
 }
 
-body {
+body{
     background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -23,7 +22,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 10000;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
 }
 
 .navbar-list ul {
@@ -45,3 +48,398 @@ body {
     font-weight: bold;
     display: block;
 }
+
+.home-page {
+    height: 100vh;
+}
+
+.intro {
+    padding-left: 8%;
+    padding-top: 13%;
+}
+
+.intro h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span {
+    color: orange
+}
+
+.intro p {
+    color: #555;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+
+}
+
+.intro a {
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.images {
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.about {
+    padding: 8% 15%;
+}
+
+.about .title h1 {
+    text-align: center;
+    color: black;
+    font-size: 1.9rem;
+}
+
+.about .content-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .image-section {
+    width: 50%;
+}
+
+.about .image-section img {
+    width: 100%;
+}
+
+.about .content {
+    width: 40%;
+    margin: auto;
+    font-family: 'Titan One', cursive;
+    font-size: 20px;
+}
+
+.text-gray {
+    padding: 0 15%;
+    color: gray;
+}
+
+.skill-section {
+    padding: 8% 0;
+    background-color: wheat;
+}
+
+.skill-section h1 {
+    padding: 0 15%;
+    font-size: 1.9rem;
+}
+
+.skill-section .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill-section .box .vertical {
+    height: 40px;
+    width: 2px;
+    background-color: #9c97f1;
+    margin: 100px 100px;
+}
+
+.vertical-title {
+    position: relative;
+    top: -45px;
+    left: -50px;
+    text-align: center;
+    display: table;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: bold;
+}
+
+.skill-section .vertical-icons {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    align-items: center;
+}
+
+.skill-section .vertical-icons img {
+    height: 20px;
+    color: white;
+}
+
+.skill-section .vertical-icons p {
+    color: white;
+    padding: 0 5px;
+}
+
+.skill-section .vertical-icons .icon-c {
+    background: rgba(0, 0, 255, 0.568);
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 10px;
+    margin-left: -23px;
+}
+
+.skill-section .vertical-icons .icon-cpp {
+    background: rgba(0, 0, 255, 0.727);
+    margin: 5px;
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 3px;
+    margin-left: -33px;
+}
+
+.skill-section .vertical-icons .icon-html {
+    background-color: rgba(255, 68, 0, 0.932);
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 10px;
+    margin-left: -42px;
+}
+
+.skill-section .vertical-icons .icon-css {
+    background-color: rgb(135, 175, 235);
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 3px;
+    margin-left: -36px;
+}
+
+.skill-section .vertical-icons .icon-js {
+    background-color: gray;
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 3px;
+    margin-left: -54px;
+}
+
+.skill-section .vertical-icons .icon-java {
+    background-color: orange;
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 10px;
+    margin-left: -36px;
+}
+
+.skill-section .vertical-icons .icon-android {
+    background-color: olivedrab;
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 3px;
+    margin-left: -71px;
+    width: 135px;
+}
+
+.skill-section .vertical-icons .icon-firebase {
+    background-color: orangered;
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 10px;
+    margin-left: -52px;
+}
+
+.skill-section .vertical-icons .icon-mysql {
+    background-color: rgba(0, 0, 255, 0.774);
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 3px;
+    margin-left: -40px;
+}
+
+.skill-section .vertical-icons .icon-git {
+    background-color: orange;
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.skill-section .vertical-icons .icon-github {
+    padding: 4px;
+    float: left;
+    display: flex;
+    margin-top: 3px;
+    margin-left: -45px;
+    background-color: rgb(128, 128, 128);
+}
+
+.projects {
+    padding: 8% 15%;
+}
+
+.projects-box .content {
+    height: 270px;
+}
+
+.projects h1 {
+    margin-bottom: 5rem;
+    font-size: 1.9rem;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.projects-container .projects-box {
+    background: white;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid #1f242d;
+    transition: 0.5s ease;
+    width: 250px;
+    height: 430px;
+}
+
+.projects-box h3 {
+    font-size: 2rem;
+}
+
+.projects-box p {
+    font-size: 1.1rem;
+    margin: 1rem 0 3rem;
+    text-align: left;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: #1f242d;
+    border-radius: 4rem;
+    font-size: 0.8rem;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.programming-section {
+    padding: 8%;
+    background-color: wheat;
+}
+
+.small-text {
+    padding: 10%;
+    color: gray;
+}
+
+.programming-section h1 {
+    padding: 0%;
+    font-size: 1.9rem;
+}
+
+.programming-section .horizontal-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.programming-section .horizontal-icons img {
+    height: 30px;
+    color: white;
+    display: table-cell;
+}
+
+.programming-section .horizontal-icons p {
+    color: orangered;
+    padding: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.programming-section .horizontal-icons a {
+    background: white;
+    padding: 4px;
+    display: table;
+    vertical-align: middle;
+    text-decoration: none;
+    margin: 80px 60px 0 0;
+    border: 2px solid purple;
+}
+
+.achievements {
+    padding: 5% 15%;
+}
+
+.achievements h1 {
+    margin-bottom: 5rem;
+    font-size: 1.9rem;
+}
+
+.achievements-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.achievements-container .achievements-box {
+    background: white;
+    padding: 2rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid #1f242d;
+    transition: 0.5s ease;
+    width: 250px;
+    height: 300px;
+}
+
+.achievements-box i {
+    font-size: 7rem;
+    color: orangered;
+}
+
+.achievements-box h3 {
+    padding-top: 10px;
+    font-size: 2rem;
+}
+
+.achievements-box p {
+    font-size: 1.1rem;
+    margin: 1rem 0 3rem;
+    text-align: left;
+    text-align: center;
+}
+
+
+

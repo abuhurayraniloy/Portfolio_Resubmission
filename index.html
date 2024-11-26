@@ -8,7 +8,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Inter:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
@@ -24,17 +25,238 @@
             
             <div class="navbar-list">
                 <ul id = "sidemenu">
-                    <i class="fas fa-times" onclick="closeMenu()"></i>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#achievements">Achievements</a></li>
-                    <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
             </div>
-
-            
         </nav>
     </div>
+
+    <div id = "home" class = "home-page">
+        <div class="intro">
+            <h2>Hi, I am<br> <span>Abu Hurayra Niloy<span></h2>
+                <p>
+                    I'm an Undergrad student.
+                </p>
+                <a target="_blank" href="resources/pdf/cv.pdf">Download CV</a>
+        </div>
+
+        <div id="images" class = "images">
+            <img class = "niloy-img" src = "resources/images/portfolio_pic.png">
+        </div>
+    </div>
+
+    <div id="about" class="about">
+        <div class="title">
+            <h1>About Me</h1>
+        </div>
+        <div class="content-section">
+            <div class="image-section">
+                <img src="resources/images/undraw_Programming_re_kg9v.png">
+            </div>
+            <div class="content">
+                <p><b>I am currently pursuing my B.Sc. degree on Software Engineering in
+                        Shahjalal University of Science and Technology, Sylhet.
+                        I love to code and solve problems.</b>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="skill-section" class="skill-section">
+        <span class="text-gray">What I have learnt so far</span>
+        <h1>My Skills</h1>
+
+        <div class="box">
+            <div class="vertical">
+                <div class="vertical-title">Competitve Programming</div>
+                <div class="vertical-icons">
+                    <div class="icon-c">
+                        <img src="resources/icons/c.png">
+                        <p>C</p>
+                    </div>
+                    <div class="icon-cpp">
+                        <img src="resources/icons/c++.png">
+                        <p>C++</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vertical">
+                <div class="vertical-title">Web Development</div>
+                <div class="vertical-icons">
+                    <div class="icon-html">
+                        <img src="resources/icons/html.png">
+                        <p>HTML</p>
+                    </div>
+                    <div class="icon-css">
+                        <img src="resources/icons/css.png">
+                        <p>CSS</p>
+                    </div>
+                    <div class="icon-js">
+                        <img src="resources/icons/javascript.png">
+                        <p>Javascript</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vertical">
+                <div class="vertical-title">App Development</div>
+                <div class="vertical-icons">
+                    <div class="icon-java">
+                        <img src="resources/icons/java.png">
+                        <p>Java</p>
+                    </div>
+                    <div class="icon-android">
+                        <img src="resources/icons/android.png">
+                        <p>Android Studio</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vertical">
+                <div class="vertical-title">Database Management</div>
+                <div class="vertical-icons">
+                    <div class="icon-firebase">
+                        <img src="resources/icons/firebase.png">
+                        <p>Firebase</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="vertical">
+                <div class="vertical-title"><br>Collaboration</div>
+                <div class="vertical-icons">
+                    <div class="icon-git">
+                        <img src="resources/icons/git.png">
+                        <p>Git</p>
+                    </div>
+                    <div class="icon-github">
+                        <img id="github-pic" src="resources/icons/github.png">
+                        <p>GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects" class="projects">
+        <h1>My Projects</h1>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <div class="content">
+                    <h3>Agony Of Defeat</h3>
+                    <p>2D Game.<br>A ninja passes obstacles<br>to reach his goal
+                        <br><br><b>Language: </b>C & C++<br><b>Library: </b>iGraphics
+                    </p>
+                </div>
+                <a target="_blank" href="https://github.com/abuhurayraniloy/GameProject-150-AGONY-OF-DEFEAT" class="btn">Source Code</a>
+            </div>
+
+            <div class="projects-box">
+                <div class="content">
+                    <h3>QuizMaster</h3>
+                    <p>Android application<br>Application to take online quizes<br><br>
+                        <b>Language: </b>Kotlin<br><b>Database: </b>Firebase<br>
+                        <b>Environment: </b>Android Studio
+                    </p>
+                </div>
+                <a target="_blank" href="https://github.com/abuhurayraniloy/QuizMaster_Project_250" class="btn">Source Code</a>
+            </div>
+
+            <div class="projects-box">
+                <div class="content">
+                    <h3>NeonStrike</h3>
+                    <p>Brick breaking game.<br>Bricks have different levels<br><br>Hitting a break means leveling it down by one.<br><br>
+                        <b>Language: </b>Java<br>
+                        <b>Environment: </b>IntellIj
+                    </p>
+                </div>
+                <a target="_blank" href="https://github.com/abuhurayraniloy/Neon-Strike" class="btn">Source
+                    Code</a>
+            </div>
+
+            <div class="projects-box">
+                <div class="content">
+                    <h3>Portfolio</h3>
+                    <p>My personal website<br><br>
+                        <b>Language: </b>Html, CSS<br>
+                        <b>Environment: </b>Vs code
+                    </p>
+                </div>
+                <a target="_blank" href="https://github.com/fahadPathan7/My_Portfolio" class="btn">Source Code</a>
+            </div>
+
+            <div class="projects-box">
+                <div class="content">
+                    <h3>News Wave</h3>
+                    <p>News application that calls API to get news<br><br>
+                        <b>Language: </b>Dart<br>
+                        <b>Framework: </b>Flutter<br>
+                        <b>Environment: </b>Android Studio
+                    </p>
+                </div>
+                <a target="_blank" href="https://github.com/abuhurayraniloy/News_Wave"
+                    class="btn">Source Code</a>
+            </div>
+
+            <div class="projects-box">
+                <div class="content">
+                    <h3>Calculator</h3>
+                    <p>Build calculator using java and swing for practice <br><br>
+                        <b>Language: </b>Java<br>
+                        <b>Environment: </b>IntelIJ
+                    </p>
+                </div>
+                <a target="_blank" href="https://github.com/abuhurayraniloy/Calculator" class="btn">Source Code</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="programming-section">
+        <span class="small-text">Where I solve problems</span>
+        <h1>Programming Profiles</h1>
+
+        <div class="horizontal-icons">
+            <div class="icon">
+                <a target="_blank" href="https://codeforces.com/profile/Niloy_">
+                    <img src="resources/icons/codeforces.png">
+                    <p>Codeforces</p>
+                </a>
+            </div>
+
+            <div class="icon">
+                <a target="_blank" href="https://www.stopstalk.com/user/profile/botfighter02">
+                    <img src="resources/icons/stopstalk.png">
+                    <p>StopStalk</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="achievements" class="achievements">
+        <h1>My Achievements</h1>
+
+        <div class="achievements-container">
+            <div class="achievements-box">
+                <h3>600+</h3>
+                <p>Total 600+ problems solved on all programming platforms</p>
+            </div>
+
+            <div class="achievements-box">
+                <h3>Pupil</h3>
+                <p>1228 rating on codeforces</p>
+            </div>
+
+        </div>
+    </section>
+
 </body>
 </html>
